@@ -15,4 +15,8 @@ class Deciduous{
     super.species = species;
     this.name = name;
   }
+  
+  static definition(){
+    return `${super.definition()} + `
+  }
 }
