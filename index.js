@@ -17,7 +17,7 @@ class Deciduous{
   }
   
   static definition(){
-    return `${super.definition()} Deciduous trees shed their leaves annually.`
+    return `${Tree.definition()} Deciduous trees shed their leaves annually.`
   }
 }
 
@@ -28,6 +28,6 @@ class Evergreen{
   }
   
   static definition(){
-    return `${super.definition()} Evergreens keep their leaves all year round.`
+    return `${Tree.definition()} Evergreens keep their leaves all year round.`
   }
 }
